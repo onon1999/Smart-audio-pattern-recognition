@@ -48,3 +48,4 @@ class AudioConfig:
         self.samples_dir.mkdir(parents=True, exist_ok=True)
         self.chunk_size = int(self.sample_rate * self.chunk_duration_sec)
         self.buffer_size = int(self.sample_rate * self.buffer_duration_sec)
+

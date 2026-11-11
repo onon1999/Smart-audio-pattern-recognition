@@ -124,3 +124,4 @@ class PatternRegistry:
                 )
         except Exception as e:
             print(f"Warning: Could not load patterns registry from disk: {e}")
+

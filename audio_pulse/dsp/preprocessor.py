@@ -62,3 +62,4 @@ class AudioPreprocessor:
             win = np.ones(frame_size)
 
         return frames * win
+

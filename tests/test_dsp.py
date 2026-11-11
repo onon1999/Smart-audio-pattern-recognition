@@ -68,3 +68,4 @@ def test_feature_extractor():
     fp = feats.get_fingerprint_vector()
     assert len(fp) == 13 + 12 + 6
     assert abs(np.linalg.norm(fp) - 1.0) < 1e-4
+

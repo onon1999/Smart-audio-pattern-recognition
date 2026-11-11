@@ -49,3 +49,4 @@ def save_wav(file_path: str | Path, signal: np.ndarray, sr: int = 22050):
     clamped = np.clip(signal, -1.0, 1.0)
     int_pcm = (clamped * 32767.0).astype(np.int16)
     wavfile.write(str(file_path), sr, int_pcm)
+

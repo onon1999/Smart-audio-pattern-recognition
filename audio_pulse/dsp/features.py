@@ -207,3 +207,4 @@ class AudioFeatureExtractor:
             chroma_frames=chroma_frames,
             mel_spectrogram=log_mel
         )
+

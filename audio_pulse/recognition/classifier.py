@@ -110,3 +110,4 @@ class ImmediateAcousticClassifier:
             summary="Multi-component acoustic pattern with mixed harmonic and noisy content.",
             primary_traits=traits
         )
+

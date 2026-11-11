@@ -134,3 +134,4 @@ def compute_stft(
     mag_spec = np.abs(zxx)
     power_spec = mag_spec ** 2
     return f, t, mag_spec, power_spec
+

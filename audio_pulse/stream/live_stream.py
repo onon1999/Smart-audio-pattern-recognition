@@ -79,3 +79,4 @@ class LiveMicrophoneStream:
         dur = duration_sec or self.config.chunk_duration_sec
         n_samples = int(self.config.sample_rate * dur)
         return self.ring_buffer.read_recent(n_samples)
+

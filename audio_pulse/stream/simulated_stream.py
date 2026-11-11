@@ -62,3 +62,4 @@ class SimulatedAudioStream:
         """Runs the simulated stream and invokes callback for every incoming audio frame."""
         for chunk in self.iter_chunks():
             callback(chunk)
+

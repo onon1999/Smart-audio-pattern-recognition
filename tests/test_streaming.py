@@ -35,3 +35,4 @@ def test_simulated_audio_stream():
     assert len(chunks) == 5
     for c in chunks:
         assert len(c) == 100
+

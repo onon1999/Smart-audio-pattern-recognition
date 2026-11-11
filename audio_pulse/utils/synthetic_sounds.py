@@ -135,3 +135,4 @@ class SyntheticAudioGenerator:
             saved_paths[name] = path
             
         return saved_paths
+

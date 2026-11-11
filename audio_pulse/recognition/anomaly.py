@@ -103,3 +103,4 @@ class AcousticAnomalyDetector:
             trigger_feature=trigger,
             message=msg
         )
+

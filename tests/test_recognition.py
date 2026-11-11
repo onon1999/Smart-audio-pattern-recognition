@@ -82,3 +82,4 @@ def test_anomaly_detector():
 
     assert report.is_anomaly is True
     assert report.anomaly_score > 50.0
+
