@@ -1,9 +1,9 @@
 import numpy as np
-from audio_pulse.api.server import root, list_patterns, analyze_chunk, ChunkAnalysisRequest
+from audio_pulse.api.server import api_info, list_patterns, analyze_chunk, ChunkAnalysisRequest
 
 
 def test_api_root():
-    data = root()
+    data = api_info()
     assert data["status"] == "online"
     assert "service" in data
     assert "endpoints" in data
